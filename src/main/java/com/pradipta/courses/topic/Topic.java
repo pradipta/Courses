@@ -1,5 +1,6 @@
 package com.pradipta.courses.topic;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -13,8 +14,11 @@ import lombok.Setter;
 @Entity
 public class Topic {
 	@Id
+	@Column(name = "id")
 	private @Getter @Setter String id;
+	@Column(name = "title")
 	private @Getter @Setter String title;
+	@Column(name = "desc")
 	private @Getter @Setter String desc;
 	
 	public Topic() {
