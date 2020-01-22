@@ -1,4 +1,7 @@
 .classpath
 .project
 .settings/
-
+src/test/
+target/**
+.idea/
+courses.iml
