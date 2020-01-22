@@ -18,7 +18,7 @@ public class Topic {
 	private @Getter @Setter String id;
 	@Column(name = "title")
 	private @Getter @Setter String title;
-	@Column(name = "desc")
+	@Column(name = "description")
 	private @Getter @Setter String desc;
 	
 	public Topic() {
